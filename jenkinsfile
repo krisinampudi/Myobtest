@@ -8,10 +8,7 @@ node{
      def mvnCMD = "${mvnHome}/bin/mvn"
          sh "${mvnCMD} clean package"
    }
-   stage('copy the jar file'){
-     sshagent(['tomcatcred']) 
-     sh 'sudo scp -o StrictHostKeyChecking=no target/*.jar ec2-user@3.91.20.115:/home/ec2-user/apache-tomcat-8.5.46/webapps/'
-} 
+  
     stage('Run the jar file'){
         sh "java -jar -Dserver.port=8090' MyobTestApp-0.0.1-SNAPSHOT.jar"
     }
