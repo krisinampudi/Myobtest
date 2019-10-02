@@ -32,6 +32,7 @@ A pipeline is created and components of the pipeline are as follows
 >tage4: this stage sends a notification of the status of the pipeline.
 
 Deployment
+
 A ec2 instance with java, jenkins is used to deploy the jar file.
 snce the application is running on ec2 instance I am proving the url and response codes of the urls
 Deployment is done in the third stage of the pipeline once the build is created artifact is moved to a directory from where the jat file is executed.
