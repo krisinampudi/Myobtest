@@ -41,6 +41,6 @@ Issues I have faced during the test
 > Jenkins workspaces is not getting updated, I have to mannually update or delete workspaces in the jenkins.
 > Junit tests are causing the application build failures and I wasn't able to figure what was causing the test to fail, so I have removed the Unit testing from the application.
 
-Thanks for Your time for going through my code.
+Thanks for going through my Myob PLatform Enablement test.
 
 
