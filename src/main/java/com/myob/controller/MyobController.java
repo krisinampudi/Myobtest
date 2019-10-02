@@ -28,7 +28,7 @@ public class MyobController {
 	@RequestMapping("/hello")
     public String hello() 
     {
-		String name = "hello world";
+		String name = "hello Myob world";
 		return name;
     }
 	
