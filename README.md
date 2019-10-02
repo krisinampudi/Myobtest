@@ -14,11 +14,13 @@ Prerequisites
 
 Git and Jenkins accounts.
 I have used an Aws Ec2 instance to install jenkins and configured jenkins with necessary plugins.
+Java 1.8 and above.
 
 Git 
+
 A step by step series of examples that tell you how to get a development env running
 Once Application and functionaltest code is wiritten, it is pushed in to git repositories with the url https://github.com/krisinampudi/Myobtest.git. 
-// https://github.com/krisinampudi/myobfunctionaltest.git
+https://github.com/krisinampudi/myobfunctionaltest.git
 I have used an Aws Ec2 instance to install jenkins and configured jenkins with necessary plugins.
 Application components include simple response code, health status response, metadata and info of the application.
 
@@ -38,6 +40,7 @@ A test job is created and is triggered when the initial job Myobtest pipeline is
 
 Deployment
 
+MyobTestApp deployed into Tomcat server.
 A ec2 instance with java, jenkins is used to deploy the jar file.
 snce the application is running on ec2 instance I am proving the url and response codes of the urls
 Deployment is done in the third stage of the pipeline once the build is created artifact is moved to a directory from where the jat file is executed.
