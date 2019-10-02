@@ -31,6 +31,11 @@ A pipeline is created and components of the pipeline are as follows
 > Stage3: Articatory if moved to specific directory and comand is executed to run the jar file.
 >tage4: this stage sends a notification of the status of the pipeline.
 
+FunctionalTest Job
+
+
+A test job is created and is triggered when the initial job Myobtest pipeline is executed.
+
 Deployment
 
 A ec2 instance with java, jenkins is used to deploy the jar file.
